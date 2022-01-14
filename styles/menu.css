@@ -1,0 +1,56 @@
+body{
+	background: #f0f0f0;
+}
+
+#menu li{
+	display: inline;
+	border: 2px skyblue solid;
+  background-color: greenyellow;
+}
+
+
+#menu li a{
+	text-decoration: none;
+}
+
+.marcagua{
+	display: none;
+	font-size: 400%;
+}
+
+#Contenido{
+	position: relative;
+	border: 2px solid orange;
+	width: 500px;
+	left: 10px;
+}
+
+@media screen and (max-width: 900px){
+	
+	#menu li{
+		display: block;
+
+	}
+
+	#menu{
+		float: left;
+		height: 800px;
+	}
+
+}
+
+@media print{
+
+	#menu{
+		display: none;
+	}
+
+	.marcagua{
+	opacity: 0.1;
+	display: initial;
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	transform: rotate(-45deg);
+}
+}
