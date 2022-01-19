@@ -46,11 +46,14 @@ body{
 	}
 
 	.marcagua{
-	opacity: 0.1;
+
+	z-index: -1;
+	color: red;
+	opacity: 0.3;
 	display: initial;
 	position: absolute;
-	left: 20%;
-	top: 20%;
+	left: 13%;
+	top: 12%;
 	transform: rotate(-45deg);
 }
 }
